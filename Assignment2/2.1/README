@@ -1,0 +1,8 @@
+OBSERVATION:
+From the graphs I can see the performance for the collective implementation is poorer than that of the point-to-point implementation for all cases. One possible reason for this could be that the gather call was designed to handle larger input properly as compared to the smaller inputs.
+
+ISSUES:
+I faced no difficulty in implementing this part.
+
+INSTRUCTIONS:
+python plot.py <name_of_PP_output_file> <name_of_Coll_output_file> <D in KB>

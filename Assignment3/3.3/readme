@@ -1,0 +1,9 @@
+# report-hpc-opt.pdf contains the plots after the optimizations(according to me).
+# S3D-IO-hpc-opt contains files for the same
+
+The general trend after optimization, in hpc, was increase in bandwidth. Though the rate of increase of bandwidth for seems to increase with the number of processes. 
+
+# I've plotted starting with 16 processes, because I had run the script once and it would have taken too much time to run it again.
+
+# python <output-filename> : plots the graphs from output file separately
+

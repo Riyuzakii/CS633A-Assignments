@@ -1,0 +1,13 @@
+SUB-PART: 1.1
+
+OBSERVATIONS:
+1) For point-to-point case the speed up increases drastically from the one node case and remains nearly same for the rest of the cases for all values of D.
+
+ISSUES:
+1) The point-to-point case was pretty straight forward, I faced no issues.
+2) There were several issues while installation, but they were all circumstantial.
+
+INSTRUCTIONS:
+
+$ chmod +x run.sh
+$ ./run.sh

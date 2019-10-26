@@ -1,0 +1,14 @@
+SUB-PART: 1.2
+
+OBSERVATIONS:
+1) For D= {1, 1024}, I saw a sudden drop in speed up for the case of 8 nodes. Otherwise there's not set pattern, but one can go so far as to say that plot for every D-value reaches a maxima at 2 or 4 nodes.
+
+ISSUES:
+1) I was initially using MPI_Bcast, which  may or may not block in case of large number of processes, so I switched to the non-blocking version MPI_Ibcast.
+2) If the length of message sent is not exactly equal to count then I got stack smashing error, exit code 139, which according to a helpful stackoverflow answer is a Seg_fault.
+
+
+INSTRUCTIONS:
+
+$ chmod +x run.sh
+$ ./run.sh

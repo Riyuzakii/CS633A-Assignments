@@ -1,0 +1,6 @@
+# instructions to run
+- python run.py
+- python plot.py
+
+In the first part, I added the number of species as a command line argument. In the report, we can see that 
+there is a definite increase in the bandwidth with increase in number of processes.

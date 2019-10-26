@@ -1,0 +1,7 @@
+OBSERVATIONS:
+I used the most straight forward and inefficient way to implement MPI_Reduce in point-to-point since the problem allowed me choose any algorithm. The result is clearly visible in the plots, as the P-to-P performance is very poor in terms of execution times when compared to the collective call.
+
+NO ISSUES
+
+INSTRUCTIONS:
+python plot.py <name_of_output_file> <D in MB>

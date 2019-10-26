@@ -1,0 +1,9 @@
+# report.pdf contains the plots after the optimizations(according to me).
+# S3D-IO contains files for the same
+
+# python run.py: runs all configurations
+# python plot.py: plots separate boxplots for different number of processes
+
+OPTIMIZATION: I tried to change the algorithm to devide the matrices in parts, like the blocking call does. The optimizations are not apparent from the plots because the cse cluster was too congested all the time, which had its effect on the bandwidth.
+
+ 

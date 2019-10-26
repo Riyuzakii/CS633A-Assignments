@@ -1,0 +1,36 @@
+#Assignment4
+Name: Aditya Rohan
+Roll. No: 160053
+
+I tried installing TAU on HPC but I could fix all issues after multiple attempts so I ran the code on CSE-cluster with TAU.
+The subfolders contain reports in a prograssive manner, 4.1 has only the report for part 4.1, 4.2 has the report of both 4.1 and 4.2 and so on. 
+I've added the report outside the sub-folders as well. There are some jobscripts in 4.1 and 4.3. The modified parmetis code is in 4.3.
+
+
+Directory Structure:
+
+|-- CS633-2018-19-2
+    |-- readme
+    |-- 4.1
+    |   |-- 24p.pdf
+    |   |-- 48p.pdf
+    |   |-- 72p.pdf
+    |   |-- jobscript.py
+    |   |-- report.pdf
+    |   |-- run24.sh
+    |   |-- run48.sh
+    |   |-- run72.sh
+    |   |-- traces-pre-opt/
+    |-- 4.2
+    |   |-- report.pdf
+    |-- 4.3
+        |-- 24p-mpi.pdf
+        |-- 48p-mpi.pdf
+        |-- exec-time24.pdf
+        |-- exec-time48.pdf
+        |-- jobscript.py
+        |-- report.pdf
+        |-- run24.sh
+        |-- run48.sh
+        |-- run72.sh
+        |-- parmetis-4.0.3

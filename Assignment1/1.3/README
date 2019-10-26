@@ -1,0 +1,13 @@
+SUB-PART: 1.2
+
+OBSERVATIONS:
+1) For optimized P->C mapping, I used the code from 1.2 with a slightly different mapping. Instead of a modulo based grouping among processes, I mapped consecutive processes(in terms of rank) in same communication group.
+2) For all values of D, the program shows maximum speed up for 2 nodes(16 processes) and then a steady decrease for all further cases.
+
+ISSUES:
+1) The real issue here was that the problem wasn't clear initially in terms of mapping and whether to use P-to-P or collectives.
+
+INSTRUCTIONS:
+
+$ chmod +x run.sh
+$ ./run.sh

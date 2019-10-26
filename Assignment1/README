@@ -1,0 +1,50 @@
+ASSIGNEMENT 1
+
+The modules folder contains script for generating the hostfile and the plots which are used by run.py, which in turn is called by run.sh from the sub-folders.
+
+
+STRUCTURE:
+|-- Assignment1
+    |-- README
+    |-- directoryList.md
+    |-- run.py
+    |-- 1.1
+    |   |-- Makefile
+    |   |-- README
+    |   |-- perf-1.png
+    |   |-- perf-1024.png
+    |   |-- perf-512.png
+    |   |-- run.sh
+    |   |-- speedUP-1.png
+    |   |-- speedUP-1024.png
+    |   |-- speedUP-512.png
+    |   |-- src.c
+    |-- 1.2
+    |   |-- Makefile
+    |   |-- README
+    |   |-- perf-1.png
+    |   |-- perf-1024.png
+    |   |-- perf-512.png
+    |   |-- run.sh
+    |   |-- speedUP-1.png
+    |   |-- speedUP-1024.png
+    |   |-- speedUP-512.png
+    |   |-- src.c
+    |-- 1.3
+    |   |-- Makefile
+    |   |-- README
+    |   |-- perf-1.png
+    |   |-- perf-1024.png
+    |   |-- perf-512.png
+    |   |-- run.sh
+    |   |-- speedUp-1.png
+    |   |-- speedUp-1024.png
+    |   |-- speedUp-512.png
+    |   |-- src.c
+    |-- modules
+        |-- __init__.py
+        |-- __init__.pyc
+        |-- createHost.py
+        |-- createHost.pyc
+        |-- plot.py
+        |-- plot.pyc

@@ -1,0 +1,200 @@
+Copyright (C) 2009-2014 Intel Corporation. All rights reserved.
+Intel(R) Inspector XE 2015 (build 379161)
+Copyright (C) 2009-2014 Intel Corporation. All rights reserved.
+Intel(R) VTune(TM) Amplifier XE 2015 (build 393444)
+Copyright (C) 2009-2014 Intel Corporation. All rights reserved.
+Intel(R) Advisor XE 2015 (build 380555)
+Copyright (C) 2009-2014 Intel Corporation. All rights reserved.
+Intel(R) Inspector XE 2015 (build 379161)
+Copyright (C) 2009-2014 Intel Corporation. All rights reserved.
+Intel(R) VTune(TM) Amplifier XE 2015 (build 393444)
+Copyright (C) 2009-2014 Intel Corporation. All rights reserved.
+Intel(R) Advisor XE 2015 (build 380555)
+Sun Mar 31 20:52:42 IST 2019
+[0]  [DEBUG] n_spec =           52
+[0]  ---- MPI file info used ----
+[0]                       cb_buffer_size = 16777216
+[0]                        romio_cb_read = enable
+[0]                       romio_cb_write = enable
+[0]                             cb_nodes = 8
+[0]                    romio_no_indep_rw = true
+[0]                         romio_cb_pfr = disable
+[0]                    romio_cb_fr_types = aar
+[0]                romio_cb_fr_alignment = 1
+[0]                romio_cb_ds_threshold = 0
+[0]                    romio_cb_alltoall = automatic
+[0]                   ind_rd_buffer_size = 4194304
+[0]                   ind_wr_buffer_size = 524288
+[0]                        romio_ds_read = disable
+[0]                       romio_ds_write = disable
+[0]                       cb_config_list = *:1
+[0]                romio_filesystem_type = NFS:
+[0]                romio_aggregator_list = 0 8 16 24 32 40 48 56
+[0]                 nc_header_align_size = 512
+[0]                    nc_var_align_size = 4
+[0]                 nc_record_align_size = 4
+[0] 
+[0]  ++++ I/O is done through PnetCDF ++++
+[0]  I/O method          : nonblocking APIs
+[0]  Run with restart    : False
+[0]  No. MPI processes   :      64
+[0]  Global array size   :     400 x    400 x    400
+[0]  output file path    : output/
+[0]  file striping count :       0
+[0]  file striping size  :       0 bytes
+[0]  -----------------------------------------------
+[0]  Time for open       :        0.18 sec
+[0]  Time for read       :        0.00 sec
+[0]  Time for write      :      405.64 sec
+[0]  Time for close      :        0.03 sec
+[0]  no. read  calls     :        0    per process
+[0]  no. write calls     :       20    per process
+[0]  total read  amount  :        0.00 GiB
+[0]  total write amount  :      135.90 GiB
+[0]  read  bandwidth     :        0.00 MiB/s
+[0]  write bandwidth     :      343.07 MiB/s
+[0]  -----------------------------------------------
+[0]  total I/O   amount  :      135.90 GiB
+[0]  total I/O   time    :      405.85 sec
+[0]  I/O   bandwidth     :      342.89 MiB/s
+[0]  [DEBUG] n_spec =           52
+[0]  ---- MPI file info used ----
+[0]                       cb_buffer_size = 16777216
+[0]                        romio_cb_read = enable
+[0]                       romio_cb_write = enable
+[0]                             cb_nodes = 8
+[0]                    romio_no_indep_rw = true
+[0]                         romio_cb_pfr = disable
+[0]                    romio_cb_fr_types = aar
+[0]                romio_cb_fr_alignment = 1
+[0]                romio_cb_ds_threshold = 0
+[0]                    romio_cb_alltoall = automatic
+[0]                   ind_rd_buffer_size = 4194304
+[0]                   ind_wr_buffer_size = 524288
+[0]                        romio_ds_read = disable
+[0]                       romio_ds_write = disable
+[0]                       cb_config_list = *:1
+[0]                romio_filesystem_type = NFS:
+[0]                romio_aggregator_list = 0 8 16 24 32 40 48 56
+[0]                 nc_header_align_size = 512
+[0]                    nc_var_align_size = 4
+[0]                 nc_record_align_size = 4
+[0] 
+[0]  ++++ I/O is done through PnetCDF ++++
+[0]  I/O method          : nonblocking APIs
+[0]  Run with restart    : False
+[0]  No. MPI processes   :      64
+[0]  Global array size   :     400 x    400 x    400
+[0]  output file path    : output/
+[0]  file striping count :       0
+[0]  file striping size  :       0 bytes
+[0]  -----------------------------------------------
+[0]  Time for open       :        0.09 sec
+[0]  Time for read       :        0.00 sec
+[0]  Time for write      :      431.56 sec
+[0]  Time for close      :        0.04 sec
+[0]  no. read  calls     :        0    per process
+[0]  no. write calls     :       20    per process
+[0]  total read  amount  :        0.00 GiB
+[0]  total write amount  :      135.90 GiB
+[0]  read  bandwidth     :        0.00 MiB/s
+[0]  write bandwidth     :      322.46 MiB/s
+[0]  -----------------------------------------------
+[0]  total I/O   amount  :      135.90 GiB
+[0]  total I/O   time    :      431.69 sec
+[0]  I/O   bandwidth     :      322.36 MiB/s
+[0]  [DEBUG] n_spec =           52
+[0]  ---- MPI file info used ----
+[0]                       cb_buffer_size = 16777216
+[0]                        romio_cb_read = enable
+[0]                       romio_cb_write = enable
+[0]                             cb_nodes = 8
+[0]                    romio_no_indep_rw = true
+[0]                         romio_cb_pfr = disable
+[0]                    romio_cb_fr_types = aar
+[0]                romio_cb_fr_alignment = 1
+[0]                romio_cb_ds_threshold = 0
+[0]                    romio_cb_alltoall = automatic
+[0]                   ind_rd_buffer_size = 4194304
+[0]                   ind_wr_buffer_size = 524288
+[0]                        romio_ds_read = disable
+[0]                       romio_ds_write = disable
+[0]                       cb_config_list = *:1
+[0]                romio_filesystem_type = NFS:
+[0]                romio_aggregator_list = 0 8 16 24 32 40 48 56
+[0]                 nc_header_align_size = 512
+[0]                    nc_var_align_size = 4
+[0]                 nc_record_align_size = 4
+[0] 
+[0]  ++++ I/O is done through PnetCDF ++++
+[0]  I/O method          : nonblocking APIs
+[0]  Run with restart    : False
+[0]  No. MPI processes   :      64
+[0]  Global array size   :     400 x    400 x    400
+[0]  output file path    : output/
+[0]  file striping count :       0
+[0]  file striping size  :       0 bytes
+[0]  -----------------------------------------------
+[0]  Time for open       :        0.27 sec
+[0]  Time for read       :        0.00 sec
+[0]  Time for write      :      366.62 sec
+[0]  Time for close      :        0.04 sec
+[0]  no. read  calls     :        0    per process
+[0]  no. write calls     :       20    per process
+[0]  total read  amount  :        0.00 GiB
+[0]  total write amount  :      135.90 GiB
+[0]  read  bandwidth     :        0.00 MiB/s
+[0]  write bandwidth     :      379.57 MiB/s
+[0]  -----------------------------------------------
+[0]  total I/O   amount  :      135.90 GiB
+[0]  total I/O   time    :      366.92 sec
+[0]  I/O   bandwidth     :      379.27 MiB/s
+[0]  [DEBUG] n_spec =           52
+[0]  ---- MPI file info used ----
+[0]                       cb_buffer_size = 16777216
+[0]                        romio_cb_read = enable
+[0]                       romio_cb_write = enable
+[0]                             cb_nodes = 8
+[0]                    romio_no_indep_rw = true
+[0]                         romio_cb_pfr = disable
+[0]                    romio_cb_fr_types = aar
+[0]                romio_cb_fr_alignment = 1
+[0]                romio_cb_ds_threshold = 0
+[0]                    romio_cb_alltoall = automatic
+[0]                   ind_rd_buffer_size = 4194304
+[0]                   ind_wr_buffer_size = 524288
+[0]                        romio_ds_read = disable
+[0]                       romio_ds_write = disable
+[0]                       cb_config_list = *:1
+[0]                romio_filesystem_type = NFS:
+[0]                romio_aggregator_list = 0 8 16 24 32 40 48 56
+[0]                 nc_header_align_size = 512
+[0]                    nc_var_align_size = 4
+[0]                 nc_record_align_size = 4
+[0] 
+[0]  ++++ I/O is done through PnetCDF ++++
+[0]  I/O method          : nonblocking APIs
+[0]  Run with restart    : False
+[0]  No. MPI processes   :      64
+[0]  Global array size   :     400 x    400 x    400
+[0]  output file path    : output/
+[0]  file striping count :       0
+[0]  file striping size  :       0 bytes
+[0]  -----------------------------------------------
+[0]  Time for open       :        0.68 sec
+[0]  Time for read       :        0.00 sec
+[0]  Time for write      :      435.40 sec
+[0]  Time for close      :        0.04 sec
+[0]  no. read  calls     :        0    per process
+[0]  no. write calls     :       20    per process
+[0]  total read  amount  :        0.00 GiB
+[0]  total write amount  :      135.90 GiB
+[0]  read  bandwidth     :        0.00 MiB/s
+[0]  write bandwidth     :      319.61 MiB/s
+[0]  -----------------------------------------------
+[0]  total I/O   amount  :      135.90 GiB
+[0]  total I/O   time    :      436.12 sec
+[0]  I/O   bandwidth     :      319.09 MiB/s
+[0]  [DEBUG] n_spec =          100
+=>> PBS: job killed: walltime 1827 exceeded limit 1800
+-bash: line 1: 20242 Terminated              /var/spool/PBS/mom_priv/jobs/98535.mgmt03.SC

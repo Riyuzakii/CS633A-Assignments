@@ -1,0 +1,153 @@
+16 11
+10.82 MiB/s
+
+11.34 MiB/s
+
+7.10 MiB/s
+
+8.46 MiB/s
+
+10.00 MiB/s
+
+10.45 MiB/s
+
+11.42 MiB/s
+
+10.00 MiB/s
+
+6.45 MiB/s
+
+11.21 MiB/s
+
+16 52
+13.44 MiB/s
+
+9.34 MiB/s
+
+8.90 MiB/s
+
+8.43 MiB/s
+
+9.12 MiB/s
+
+9.29 MiB/s
+
+9.69 MiB/s
+
+10.44 MiB/s
+
+8.90 MiB/s
+
+23.27 MiB/s
+
+16 100
+16.30 MiB/s
+
+13.71 MiB/s
+
+6.85 MiB/s
+
+9.33 MiB/s
+
+9.48 MiB/s
+
+8.72 MiB/s
+
+10.57 MiB/s
+
+13.10 MiB/s
+
+14.20 MiB/s
+
+12.59 MiB/s
+
+32 11
+20.70 MiB/s
+
+25.86 MiB/s
+
+21.93 MiB/s
+
+20.14 MiB/s
+
+16.02 MiB/s
+
+13.13 MiB/s
+
+20.66 MiB/s
+
+16.71 MiB/s
+
+18.51 MiB/s
+
+17.15 MiB/s
+
+32 52
+17.37 MiB/s
+
+15.85 MiB/s
+
+16.67 MiB/s
+
+9.55 MiB/s
+
+12.25 MiB/s
+
+10.28 MiB/s
+
+8.01 MiB/s
+
+7.01 MiB/s
+
+7.21 MiB/s
+
+7.93 MiB/s
+
+32 100
+
+21.76  MiB/s
+9.79  MiB/s
+20.17  MiB/s
+15.08  MiB/s
+21.43  MiB/s
+14.92  MiB/s
+21.87  MiB/s
+10.1  MiB/s
+10.44  MiB/s
+22.5  MiB/s
+
+64 11
+12.86  MiB/s
+22.31  MiB/s
+22.35  MiB/s
+7.5  MiB/s
+23.59  MiB/s
+7.64  MiB/s
+15.81  MiB/s
+17.04  MiB/s
+24.5  MiB/s
+13.06  MiB/s
+
+64 52
+19.96  MiB/s
+20.94  MiB/s
+19.36  MiB/s
+22.18  MiB/s
+19.36  MiB/s
+21.0  MiB/s
+17.16  MiB/s
+22.25  MiB/s
+22.15  MiB/s
+22.69  MiB/s
+
+64 100
+28.54  MiB/s
+20.07  MiB/s
+22.09  MiB/s
+19.45  MiB/s
+26.6  MiB/s
+23.47  MiB/s
+16.02  MiB/s
+22.55  MiB/s
+24.94  MiB/s
+26.24  MiB/s

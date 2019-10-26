@@ -1,0 +1,35 @@
+CS633: Parallel Computing
+Aditya Rohan(160053)
+Assignment 0
+
+Installation Steps and Issues:
+1. Download mpich-3.2.1 tar file
+2. tar xfz mpich-3.2.1.tar.gz
+3. mkdir install directory
+4. ./configure --disable-fortran -prefix=/home/light/6th-Sem/CS633/mpich_install |& tee c.txt
+	-> --disable-fortran : flag for disabling the need for Fortran compiler since I’m not going to code in fortran
+
+5. make 2>&1 | tee m.txt
+6. make install |& tee mi.txt
+7. Use this command to check the local installation: mpiexec -n 4 ./examples/cpi
+8. This completes the actual execution and we can now compress the install directory and the actual mpich-3.2.1 directory and copy them to one of the lab machines. SSH into one of the machines and set up Passwordless-SSH with another machine on the cluster, this will automatically set it up with all machines in the cluster.
+	-> Easiest way to enable passwordless-ssh
+	-> Don’t put passphrase on your ssh-keys when you generate them afresh.
+9. export PATH=/users/misc/raditya/6th-Sem/CS633/mpich_install/bin:$PATH
+
+-------------------------INSTALLATION COMPLETED------------------------------
+
+
+							TABLE 1
+-----------------------------------------------------------------------------
+Case No. | Command										| Execution Time	|
+-----------------------------------------------------------------------------
+Case 1	 | mpiexec -n 4 -f hostfile ./examples/cpi 		| 0.000243			|
+Case 2	 | mpiexec -n 8 -f hostfile ./examples/cpi 		| 0.003671			|
+Case 3	 | mpiexec -n 16 -f hostfile ./examples/cpi 	| 0.006382			|
+Case 4	 | mpiexec -n 32 -f hostfile ./examples/cpi 	| 0.006246			|
+-----------------------------------------------------------------------------
+
+JOBSCRIPT usage:
+	python jobscript.py <hostfile path> <number of nodes>
+this will write the available IPs to host file which can be directly used with the 'mpiexec' command
